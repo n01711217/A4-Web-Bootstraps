@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speakers - ErnestTechCon 2024</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">ErnestTechCon 2024</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="schedule.html">Schedule</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Speakers Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Featured Speakers</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Dr. N.img" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr Andrew Ng</h5>
+                        <p class="card-text">Expert in Artificial Intelligence.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#speaker1Modal">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Joas.img" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Joas A. Santos</h5>
+                        <p class="card-text">Cybersecurity Specialist.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#speaker2Modal">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Nekamoto.img" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Satoshi Nakamoto,</h5>
+                        <p class="card-text">Blockchain Pioneer.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#speaker3Modal">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Speaker Modals -->
+    <div class="modal fade" id="speaker1Modal" tabindex="-1" aria-labelledby="speaker1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="speaker1ModalLabel">Dr Andrew Ng</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Dr Andrew Ng is a world-renowned computer scientist and entrepreneur leading the charge in the ethical advancement of AI systems. 
+                        Ng has authored or co-authored over 
+                        200 research papers in machine learning, robotics, and related fields.Feb 16, 2024</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="speaker2Modal" tabindex="-1" aria-labelledby="speaker2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="speaker2ModalLabel">Joas A. Santos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Joas A. Santos is an academic and Professional experience in Cyber Security / Red Team Leader / Information Security Researcher. - CyberSecurityUP.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="speaker3Modal" tabindex="-1" aria-labelledby="speaker3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="speaker3ModalLabel">Satoshi Nakamoto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p> Blockchain began with a man named Satoshi Nakamoto, who invented Bitcoin and brought blockchain technology to the world back in 2009. Bitcoin aimed to be a 
+                        viable alternative to fiat currency. A secure, decentralised, global currency that could be used as a medium of exchange.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 ErnestTechCon. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><img src="facebook.img" alt="Facebook" class="mx-2"></a>
+                <a href="#"><img src="x.img" alt="Twitter" class="mx-2"></a>
+                <a href="#"><img src="linkedin.img" alt="LinkedIn" class="mx-2"></a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
